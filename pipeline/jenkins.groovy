@@ -3,7 +3,7 @@ pipeline {
     parameters {
 
         choice(name: 'OS', choices: ['linux', 'darwin', 'windows', 'all'], description: 'Pick OS')
-
+        choice(name: 'OS', choices: ['linux', 'darwin', 'windows', 'all'], description: 'Pick OS')
     }
     stages {
         stage('Example') {
